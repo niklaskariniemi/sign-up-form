@@ -8,12 +8,23 @@
 }
 
 .img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 100%;
    
 }
 
 .img-panel-background {
     width: 500px;
     height: 100%;
+}
+
+.img-panel-logo {
+    position: absolute;
+    height: 100px;
+    width: 100px;
 }
 
 .form-section {
