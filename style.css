@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.img-section {
+   
+}
+
+.img-panel-background {
+    width: 500px;
+    height: 100%;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    width: 700px;
+    height: 100%;
+}
+
+.description-panel {
+    background-color: aqua;
+    height: 250px;
+    width: 100%;
+}
+
+.form-panel {
+    background-color:blanchedalmond;
+    height: 250px;
+    width: 100%;
+}
+
+.end-panel {
+    background-color:brown;
+    height: 250px;
+    width: 100%;
+}
