@@ -36,9 +36,17 @@
 }
 
 .description-panel {
-    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
     height: 250px;
     width: 100%;
+}
+
+.description-panel > p {
+    margin-left: 20px;
 }
 
 .form-panel {
