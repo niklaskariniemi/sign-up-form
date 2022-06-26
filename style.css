@@ -62,10 +62,11 @@
 input {
     border: 1px solid #E5E7EB;
     border-radius: 3px;
+    margin-top: 5px;
 }
 
 input:focus {
-    border: 1px solid blue !important;
+    border: 1px solid rgb(32, 178, 222) !important;
 }
 
 .form-left, .form-right {
@@ -75,6 +76,11 @@ input:focus {
 
 .form-left {
     margin-left: 20px;
+    margin-bottom: 42px;
+}
+
+.form-left > h3 {
+    margin-bottom: 20px;
 }
 
 .form-right {
