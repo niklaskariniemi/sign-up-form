@@ -90,9 +90,11 @@ input:focus {
 
 .end-panel {
     display:flex;
-    align-items: flex-end;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
     background-color: white;
-    margin-top: 100px;
+    margin-top: 140px;
     height: 250px;
     width: 100%;
 }
@@ -109,4 +111,17 @@ input:focus {
 
 .submit-button:hover {
     background-color: #4b5c3c;
+}
+
+.end-panel > p {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.log-in {
+    color:#596D48;
+}
+
+.log-in:hover {
+    color:#4b5c3c;
 }
